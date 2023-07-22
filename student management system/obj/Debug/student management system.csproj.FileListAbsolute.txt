@@ -1,0 +1,17 @@
+D:\BUFON\Practice\C#\student management system\student management system\bin\Debug\student management system.exe.config
+D:\BUFON\Practice\C#\student management system\student management system\bin\Debug\student management system.exe
+D:\BUFON\Practice\C#\student management system\student management system\bin\Debug\student management system.pdb
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.csproj.AssemblyReference.cache
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.csproj.SuggestedBindingRedirects.cache
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.Properties.Resources.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.csproj.GenerateResource.cache
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.csproj.CoreCompileInputs.cache
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.exe
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student management system.pdb
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.userCredentials_Form.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.student_form.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.teacher_form.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.welcome.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.View_Student_Data.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.View_Teacher_Data.resources
+D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.Course__Fee_Teacher_Salary.resources
