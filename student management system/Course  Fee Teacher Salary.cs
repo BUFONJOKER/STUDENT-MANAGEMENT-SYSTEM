@@ -20,34 +20,8 @@ namespace student_management_system
 
         private void Course__Fee_Teacher_Salary_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'studentDataSet2.money' table. You can move, or remove it, as needed.
-            this.moneyTableAdapter.Fill(this.studentDataSet2.money);
-            string sql, connection;
-            SqlConnection cnn;
-            SqlDataReader reader;
-            SqlCommand command;
-
-            connection = "Data Source = Joker\\SQlEXPRESS;Initial Catalog = student;Integrated Security = True";
-            cnn = new SqlConnection(connection);
-            cnn.Open();
-            sql = "select * from money";
-            command = new SqlCommand(sql, cnn);
-            reader = command.ExecuteReader();
-           
-            string newline = Environment.NewLine;
-            money_textBox.AppendText("Course" + "\t\t" + "Course Fee" + "\t" + "Teacher Salary"); 
-            while (reader.Read())
-            {
-
-                money_textBox.AppendText(newline + (reader.GetString(0) + "\t\t" + reader.GetString(1) +
-                    "\t\t" + reader.GetString(2)));
-
-            }
-            money_textBox.ReadOnly = true;
-            reader.Close();
-            command.Dispose();
-            cnn.Close();
-
+            // TODO: This line of code loads data into the 'studentDataSet4.money' table. You can move, or remove it, as needed.
+            this.moneyTableAdapter.Fill(this.studentDataSet4.money);
 
         }
 
@@ -59,6 +33,11 @@ namespace student_management_system
         private void money_button_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void money_textBox_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

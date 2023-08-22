@@ -31,11 +31,16 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.studentDataSet2 = new student_management_system.studentDataSet2();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.studentDataSet4 = new student_management_system.studentDataSet4();
             this.moneyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.moneyTableAdapter = new student_management_system.studentDataSet2TableAdapters.moneyTableAdapter();
-            this.money_textBox = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.studentDataSet2)).BeginInit();
+            this.moneyTableAdapter = new student_management_system.studentDataSet4TableAdapters.moneyTableAdapter();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.courseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.feeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.teacherSalaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,9 +49,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(320, 9);
+            this.label1.Location = new System.Drawing.Point(240, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(613, 95);
+            this.label1.Size = new System.Drawing.Size(490, 76);
             this.label1.TabIndex = 7;
             this.label1.Text = "Bufon\'s School";
             // 
@@ -54,48 +60,82 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(208, 180);
+            this.label2.Location = new System.Drawing.Point(156, 146);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(814, 39);
+            this.label2.Size = new System.Drawing.Size(649, 31);
             this.label2.TabIndex = 8;
             this.label2.Text = "Course Fee and Teacher Salary according to Course";
             // 
-            // studentDataSet2
+            // dataGridView1
             // 
-            this.studentDataSet2.DataSetName = "studentDataSet2";
-            this.studentDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.courseDataGridViewTextBoxColumn,
+            this.feeDataGridViewTextBoxColumn,
+            this.teacherSalaryDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.moneyBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(162, 217);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(438, 191);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // studentDataSet4
+            // 
+            this.studentDataSet4.DataSetName = "studentDataSet4";
+            this.studentDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // moneyBindingSource
             // 
             this.moneyBindingSource.DataMember = "money";
-            this.moneyBindingSource.DataSource = this.studentDataSet2;
+            this.moneyBindingSource.DataSource = this.studentDataSet4;
             // 
             // moneyTableAdapter
             // 
             this.moneyTableAdapter.ClearBeforeFill = true;
             // 
-            // money_textBox
+            // idDataGridViewTextBoxColumn
             // 
-            this.money_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.money_textBox.Location = new System.Drawing.Point(215, 351);
-            this.money_textBox.Multiline = true;
-            this.money_textBox.Name = "money_textBox";
-            this.money_textBox.Size = new System.Drawing.Size(729, 209);
-            this.money_textBox.TabIndex = 12;
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // courseDataGridViewTextBoxColumn
+            // 
+            this.courseDataGridViewTextBoxColumn.DataPropertyName = "Course";
+            this.courseDataGridViewTextBoxColumn.HeaderText = "Course";
+            this.courseDataGridViewTextBoxColumn.Name = "courseDataGridViewTextBoxColumn";
+            // 
+            // feeDataGridViewTextBoxColumn
+            // 
+            this.feeDataGridViewTextBoxColumn.DataPropertyName = "Fee";
+            this.feeDataGridViewTextBoxColumn.HeaderText = "Fee";
+            this.feeDataGridViewTextBoxColumn.Name = "feeDataGridViewTextBoxColumn";
+            // 
+            // teacherSalaryDataGridViewTextBoxColumn
+            // 
+            this.teacherSalaryDataGridViewTextBoxColumn.DataPropertyName = "Teacher_Salary";
+            this.teacherSalaryDataGridViewTextBoxColumn.HeaderText = "Teacher_Salary";
+            this.teacherSalaryDataGridViewTextBoxColumn.Name = "teacherSalaryDataGridViewTextBoxColumn";
             // 
             // Course__Fee_Teacher_Salary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1317, 743);
-            this.Controls.Add(this.money_textBox);
+            this.ClientSize = new System.Drawing.Size(988, 604);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Course__Fee_Teacher_Salary";
             this.Text = "Course__Fee_Teacher_Salary";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Course__Fee_Teacher_Salary_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.studentDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.moneyBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -106,9 +146,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private studentDataSet2 studentDataSet2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private studentDataSet4 studentDataSet4;
         private System.Windows.Forms.BindingSource moneyBindingSource;
-        private studentDataSet2TableAdapters.moneyTableAdapter moneyTableAdapter;
-        private System.Windows.Forms.TextBox money_textBox;
+        private studentDataSet4TableAdapters.moneyTableAdapter moneyTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn courseDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn feeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn teacherSalaryDataGridViewTextBoxColumn;
     }
 }

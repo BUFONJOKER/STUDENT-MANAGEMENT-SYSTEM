@@ -15,3 +15,19 @@ D:\BUFON\Practice\C#\student management system\student management system\obj\Deb
 D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.View_Student_Data.resources
 D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.View_Teacher_Data.resources
 D:\BUFON\Practice\C#\student management system\student management system\obj\Debug\student_management_system.Course__Fee_Teacher_Salary.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\bin\Debug\student management system.exe.config
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\bin\Debug\student management system.exe
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\bin\Debug\student management system.pdb
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student management system.csproj.AssemblyReference.cache
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.Course__Fee_Teacher_Salary.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.View_Student_Data.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.View_Teacher_Data.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.welcome.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.student_form.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.teacher_form.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.userCredentials_Form.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student_management_system.Properties.Resources.resources
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student management system.csproj.GenerateResource.cache
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student management system.csproj.CoreCompileInputs.cache
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student management system.exe
+D:\PRACTICE\STUDENT-MANAGEMENT-SYSTEM\student management system\obj\Debug\student management system.pdb
